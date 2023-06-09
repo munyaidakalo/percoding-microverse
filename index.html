@@ -1,12 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    Hello World, we are software developers!
-</body>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>FreeCodeCamp Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+
+    <form id="survey-form">
+      <label for="name" id="name-label"
+        >Name
+        <input id="name" type="text" placeholder="Enter your name" required />
+      </label>
+      <label for="email" id="email-label">Email </label>
+      <input id="email" type="email" required placeholder="Enter your email" />
+
+      <label for="number" id="number-label">Age (optional)</label>
+      <input id="number" type="number" min="0" max="100" placeholder="Age" />
+
+      <select id="dropdown">
+        Which option best describes your current role?
+        <option>Select current role</option>
+        <option value="Select current role">Student</option>
+        <option value="Select current role">Full Time Job</option>
+        <option value="Select current role">Full Time Learner</option>
+        <option value="Select current role">Prefer not to say</option>
+        <option value="Select current role">Other</option>
+      </select>
+
+      <div>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+
+        <label for="definitely">Definitely</label>
+        <input
+          value="definitely"
+          name="checker"
+          type="radio"
+          id="definitely"
+          checked
+        />
+
+        <label for="maybe">Maybe</label>
+        <input value="maybe" name="checker" id="maybe" type="radio" />
+
+        <label for="notsure">Not Sure</label>
+        <input value="notsure" name="checker" id="notsure" type="radio" />
+      </div>
+
+      <div>
+        <label for="front-end-projects">Front-end Projects</label>
+        <input
+          value="Front-end-Projects"
+          id="front-end-projects"
+          type="checkbox"
+        />
+
+        <label for="backend-projects">Back-end-Projects</label>
+        <input
+          value="Back-end-Projects"
+          id="backend-projects"
+          type="checkbox"
+        />
+
+        <label for="data-visualization">Data Visualization</label>
+        <input
+          value="Data-Visualization"
+          id="data-visualization"
+          type="checkbox"
+        />
+      </div>
+
+      <div>
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <div>
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
 </html>
