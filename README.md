@@ -4,6 +4,6 @@
 
 You don't know how to fork a project? [Click hear](https://help.github.com/articles/fork-a-repo/) to learn how to do it.
 
-- This is a simple web page on Survey Form fro FreeCodeCamp
-- Check out the [link below for instruction](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
+- This is a simple web page on Survey Form for FreeCodeCamp
+- Check out the [link for instruction](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 - Visit Website at [https://munyaidakalo.github.io/percoding-microverse/](https://munyaidakalo.github.io/percoding-microverse/)
